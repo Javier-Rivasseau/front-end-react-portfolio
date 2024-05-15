@@ -1,0 +1,18 @@
+.progress-bar {
+    background: linear-gradient(45deg, #FFD700, #FFA500, #FF8C00, #FF6347);
+    background-size: 200% 200%;
+ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes progress-bar-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

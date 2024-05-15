@@ -1,0 +1,11 @@
+{
+  "tailwindCSS.suggestions": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  
+  "files.associations": {
+    "*.css": "tailwindcss"},
+  "tailwindCSS.emmetCompletions": true,
+
+}

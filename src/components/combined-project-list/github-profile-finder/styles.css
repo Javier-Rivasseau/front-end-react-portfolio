@@ -1,0 +1,7 @@
+.userContainer {
+    @apply flex flex-col items-center justify-center;
+  }
+  
+  .userContainer:hover {
+    @apply transform -translate-y-1 shadow-lg transition-all duration-300;
+  }
