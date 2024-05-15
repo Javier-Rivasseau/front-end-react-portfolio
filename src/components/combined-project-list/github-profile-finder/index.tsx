@@ -20,7 +20,7 @@ const GithubProfileFinder = () => {
   const fetchGithubUserData = async () => {
     try {
       setLoading(true);
-      const res = await fetch(`http://api.github.com/users/${userName}`);
+      const res = await fetch(`https://api.github.com/users/${userName}`);
       const data = await res.json();
       if (data) {
         setUserData(data);
