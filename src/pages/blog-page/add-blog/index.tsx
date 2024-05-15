@@ -30,13 +30,13 @@ const AddBlogPage = () => {
     try {
       const res = isEdited
         ? await axios.put(
-            `http://localhost:5000/api/blogs/update/${location.state.getCurrentItem._id}`,
+            `https://back-end-react-portfolio.onrender.com/api/blogs/update/${location.state.getCurrentItem._id}`,
             {
               title: blogFormData.title,
               description: blogFormData.description,
             }
           )
-        : await axios.post("http://localhost:5000/api/blogs/add", {
+        : await axios.post("https://back-end-react-portfolio.onrender.com/api/blogs/add", {
             title: blogFormData.title,
             description: blogFormData.description,
           });

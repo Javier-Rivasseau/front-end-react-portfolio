@@ -23,7 +23,7 @@ const HomeBlogPage = () => {
   const fetchBloglist = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("http://localhost:5000/api/blogs");
+      const res = await axios.get("https://back-end-react-portfolio.onrender.com/api/blogs");
       const result = await res.data;
 
       if (result && result.blogList && result.blogList.length) {
@@ -44,7 +44,7 @@ const HomeBlogPage = () => {
   const handleDeleteBlog = async (getCurrentId: string) => {
     try {
       const res = await axios.delete(
-        `http://localhost:5000/api/blogs/delete/${getCurrentId}`
+        `https://back-end-react-portfolio.onrender.com/api/blogs/delete/${getCurrentId}`
       );
 
       const result = await res.data;
