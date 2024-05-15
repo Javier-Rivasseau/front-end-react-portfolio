@@ -9,6 +9,7 @@ interface ProjectCardProps {
   to: string;
   index: number;
   githubUrl: string;
+  githubUrl2:string
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -18,8 +19,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   to,
   index,
   githubUrl,
+  githubUrl2
 }) => {
   const isReversed = index % 2 !== 0;
+  const showGithubIcons = title === "Food Recipes" || title === "Blog";
 
   return (
     <div
@@ -49,13 +52,20 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </div>
         </div>
       </Link>
-      <div
-        className={`flex flex-grow ${
-          isReversed ? "" : "flex-row-reverse"
-        } `}
-      >
-        <GithubIcon url={githubUrl} />
-      </div>
+      {showGithubIcons ? (
+        <div
+          className={`flex flex-grow ${isReversed ? "" : "flex-row-reverse"}`}
+        >
+          <GithubIcon url={githubUrl} />
+          <GithubIcon url={githubUrl} />
+        </div>
+      ) : (
+        <div
+          className={`flex flex-grow ${isReversed ? "" : "flex-row-reverse"}`}
+        >
+          <GithubIcon url={githubUrl} />
+        </div>
+      )}
     </div>
   );
 };

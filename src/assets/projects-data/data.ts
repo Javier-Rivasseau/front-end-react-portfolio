@@ -6,7 +6,8 @@ const projectData = [
     description:
       "A collection of concise React projects designed to showcase fundamental concepts such as state management, component composition, and API integration.",
     route: "/combined-project",
-    githubUrl: "https://facebook.com",
+    githubUrl: "https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/combined-project-list",
+    githubUrl2:""
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ const projectData = [
     description:
       "An intuitive weather forecasting application emphasizing real-time weather updates, leveraging data from a reliable API source.",
     route: "/weather-app",
-    githubUrl: "https://google.com",
+    githubUrl: "https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/weather-app",
+    githubUrl2:""
   },
   {
     id: 3,
@@ -24,16 +26,18 @@ const projectData = [
     description:
       "In this project we will see dedicated pages, Search functionality, a Home hub, personalized Favorites list and a dynamic Details page. Also we'll make use of context management and routing.",
     route: "/food-recipe",
-    githubUrl: "https://youtube.com",
+    githubUrl: "",
+    githubUrl2:""
   },
   {
     id: 4,
-    title: "Blog ",
+    title: "Blog",
     imageUrl: "blog_1.png",
     description:
       "A Blog built with the MERN (MongoDB, Express.js, React.js, Node.js) stack, enhanced with Context API for state management and React Router for efficient routing.",
     route: "/blog",
     githubUrl: "https://youtube.com",
+    githubUrl2:""
   },
 ];
 

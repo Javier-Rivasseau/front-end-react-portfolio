@@ -57,7 +57,7 @@ const StarRating: React.FC<StarRatingProps> = ({ noOfStars = 10 }) => {
         Restart Hover
       </button>
       <div className="p-8">
-        <GithubIcon url=""/>
+        <GithubIcon url="https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/combined-project-list/star-rating"/>
       </div>
     
     </div>

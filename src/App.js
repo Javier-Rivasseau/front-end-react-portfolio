@@ -8,8 +8,8 @@ import WeatherAppPage from "./pages/weather-app-page";
 import FoodRecipeHome from "./pages/food-recipe-pages/home";
 import FoodRecipeFavorites from "./pages/food-recipe-pages/favorites";
 import FoodRecipeDetails from "./pages/food-recipe-pages/details";
-import FoodRecipeContainer from "./components/food-recipe-container";
-import BlogContainer from "./components/blog-container";
+import FoodRecipeContainer from "./components/food-recipe/food-recipe-container";
+import BlogContainer from "./components/blog-app/blog-container";
 import HomeBlogPage from "./pages/blog-page/home";
 import AddBlogPage from "./pages/blog-page/add-blog";
 

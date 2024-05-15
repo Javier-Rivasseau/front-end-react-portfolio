@@ -61,7 +61,7 @@ const ScrollIndicator: FC = () => {
       </p>
 
       <div className="p-8">
-        <GithubIcon url="https://www.youtube.com"/>
+        <GithubIcon url="https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/combined-project-list/custom-scroll-indicator"/>
       </div>
     </div>
     

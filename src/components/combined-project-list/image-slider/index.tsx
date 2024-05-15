@@ -113,7 +113,7 @@ const ImageSlider: React.FC<ImageSliderProps> = ({
         </span>
       </div>
       <div className="p-8">
-        <GithubIcon url=""/>
+        <GithubIcon url="https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/combined-project-list/image-slider"/>
       </div>
     
     </div>

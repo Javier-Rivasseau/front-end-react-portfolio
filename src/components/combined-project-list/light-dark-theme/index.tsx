@@ -26,8 +26,8 @@ const LightDarkTheme = () => {
           page and check its persistency --
         </p>
       </div>
-      <div className="p-8">
-        <GithubIcon url=""/>
+      <div className="p-8 ">
+        <GithubIcon  url="https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/combined-project-list/light-dark-theme"/>
       </div>
     
     </div>

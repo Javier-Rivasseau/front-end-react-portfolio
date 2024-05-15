@@ -100,7 +100,7 @@ const RandomColorGenerator: FC = () => {
         <h1 className="text-white font-bold text-5xl">{color}</h1>
       </div>
       <div className="p-8">
-        <GithubIcon url=""/>
+        <GithubIcon url="https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/combined-project-list/random-color"/>
       </div>
     
     </div>

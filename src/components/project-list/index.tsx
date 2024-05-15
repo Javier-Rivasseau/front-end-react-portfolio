@@ -6,7 +6,8 @@ interface Project {
   imageUrl: string;
   description: string;
   route: string;
-  githubUrl: string
+  githubUrl: string;
+  githubUrl2: string;
 }
 
 const ProjectList = () => {
@@ -27,6 +28,7 @@ const ProjectList = () => {
                   to={project.route}
                   index={index}
                   githubUrl={project.githubUrl}
+                  githubUrl2 = {project.githubUrl2}
                 />
               </div>
             ))

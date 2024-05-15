@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import { GlobalContext } from "../../context";
+import { GlobalContext } from "../../../context";
 
 const FoodRecipeNavbar = () => {
   const context = useContext(GlobalContext);

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { GlobalContext } from "../../../context";
-import RecipeItem from "../../../components/food-recipe-item";
+import RecipeItem from "../../../components/food-recipe/food-recipe-item";
 
 const FoodRecipeHome = () => {
   const context = useContext(GlobalContext);

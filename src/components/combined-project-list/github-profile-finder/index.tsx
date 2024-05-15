@@ -59,7 +59,7 @@ const GithubProfileFinder = () => {
       {userData && <User userItem={userData}/>}
 
       <div className="p-8">
-        <GithubIcon url=""/>
+        <GithubIcon url="https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/combined-project-list/github-profile-finder"/>
       </div>
     
     </div>
