@@ -23,7 +23,9 @@ const HomeBlogPage = () => {
   const fetchBloglist = async () => {
     try {
       setLoading(true);
-      const res = await axios.get("https://back-end-react-portfolio.onrender.com/api/blogs");
+      const res = await axios.get(
+        "https://back-end-react-portfolio.onrender.com/api/blogs"
+      );
       const result = await res.data;
 
       if (result && result.blogList && result.blogList.length) {
@@ -63,7 +65,14 @@ const HomeBlogPage = () => {
   };
 
   if (loading) {
-    return <div>Data Loading! Please Wait</div>;
+    return (
+      <div className="font-medium text-4xl text-center text-black space-y-5 ">
+       <p> Data Loading! Please Wait... </p>
+       <p className="text-sm">* If it takes too long, it may be due to the
+        limitations of the free backend server. Please wait a moment for the
+        data to load *</p>
+      </div>
+    );
   }
 
   return (
@@ -83,16 +92,16 @@ const HomeBlogPage = () => {
                 <p className="text-gray-600">{item.description}</p>
               </div>
               <div className="absolute -bottom-1 -right-2 p-2">
-               <div className="flex "> 
-               <FaTrash
-                  onClick={() => handleDeleteBlog(item._id)}
-                  className="text-red-600 cursor-pointer mr-2 h-6 w-6"
-                />
-                <FaEdit
-                  onClick={() => handleEditBlog(item)}
-                  className="text-blue-600 cursor-pointer h-6 w-6"
-                />
-               </div>
+                <div className="flex ">
+                  <FaTrash
+                    onClick={() => handleDeleteBlog(item._id)}
+                    className="text-red-600 cursor-pointer mr-2 h-6 w-6"
+                  />
+                  <FaEdit
+                    onClick={() => handleEditBlog(item)}
+                    className="text-blue-600 cursor-pointer h-6 w-6"
+                  />
+                </div>
               </div>
             </div>
           ))
