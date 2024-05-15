@@ -26,8 +26,8 @@ const projectData = [
     description:
       "In this project we will see dedicated pages, Search functionality, a Home hub, personalized Favorites list and a dynamic Details page. Also we'll make use of context management and routing.",
     route: "/food-recipe",
-    githubUrl: "",
-    githubUrl2:""
+    githubUrl: "https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/food-recipe",
+    githubUrl2:"https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/pages/food-recipe-pages"
   },
   {
     id: 4,
@@ -36,8 +36,8 @@ const projectData = [
     description:
       "A Blog built with the MERN (MongoDB, Express.js, React.js, Node.js) stack, enhanced with Context API for state management and React Router for efficient routing.",
     route: "/blog",
-    githubUrl: "https://youtube.com",
-    githubUrl2:""
+    githubUrl: "https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/components/blog-app",
+    githubUrl2:"https://github.com/Javier-Rivasseau/front-end-react-portfolio/tree/main/src/pages/blog-page"
   },
 ];
 

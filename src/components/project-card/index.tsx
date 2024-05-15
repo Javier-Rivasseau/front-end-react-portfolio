@@ -54,10 +54,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       </Link>
       {showGithubIcons ? (
         <div
-          className={`flex flex-grow ${isReversed ? "" : "flex-row-reverse"}`}
+          className={`flex flex-grow ${isReversed ? "" : "flex-row-reverse"} my-2 md:my-0  mx-4`}
         >
-          <GithubIcon url={githubUrl} />
-          <GithubIcon url={githubUrl} />
+          <p className="text-xs font-medium"> Pages <GithubIcon url={githubUrl2} /></p>
+          <p className="text-xs font-medium"> Components <GithubIcon url={githubUrl} /></p>
+          
         </div>
       ) : (
         <div

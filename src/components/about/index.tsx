@@ -15,18 +15,18 @@ const AboutMe = () => {
             
             ABOUT ME
           </h2>
-          <h2 className="text-2xl md:text-2xl font-bold font-sans">
-            Front-end Developer
+          <h2 className="text-3xl md:text-2xl font-bold font-sans">
+            FullStack developer
           </h2>
-          <h2 className="text-2xl md:text-2xl font-bold font-sans pb-2 md:pb-3">
+          <h2 className="text-3xl md:text-2xl font-bold font-sans pb-2 md:pb-3">
             based in Buenos Aires, Argentina 📍
           </h2>
-          <p className="mb-4 md:mb-4">
-            Hey, my name is Javier, and I'm a Frontend Developer. My passion is
+          <p className="mb-4 md:mb-4 font-medium">
+            Hey, my name is Javier, and I'm a Fullstack developer. My passion is
             to create and develop a clean UI/UX for my users.
           </p>
-          <p>
-            My main stack currently is React/Next.js in combination with
+          <p className="mb-4 md:mb-4 font-medium ">
+            My main stack currently is the MERN tech, in combination with
             Tailwind CSS and TypeScript.
           </p>
         </div>

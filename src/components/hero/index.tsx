@@ -7,6 +7,8 @@ import icons1 from "../../assets/images/icons1.svg";
 import icons2 from "../../assets/images/icons2.svg";
 import icons3 from "../../assets/images/icons3.svg";
 import icons4 from "../../assets/images/icons4.svg";
+import icons5 from "../../assets/images/mongodb.svg";
+import icons6 from "../../assets/images/expressjs.svg";
 
 interface HeroProps {
   title: string;
@@ -75,19 +77,33 @@ const Hero: React.FC<HeroProps> = ({ title, presentation }) => {
         <div className="md:block md:h-9 md:w-px md:bg-gray-600 md:mx-8"></div>
         <div className="bg-gray-400 h-px w-1/3 md:h-auto md:w-px md:ml-4 my-2"></div>
         {/* Renderizar las tecnologías utilizadas aquí */}
-        <ul className="flex pl-6 space-x-6">
+        <ul className="flex pl-6 space-x-2">
+          <div className="flex space-x-5 ">
           <li className="hover:scale-150 transition duration-700 w-20">
             <img src={icons1} alt="html,react" />
           </li>
           <li className="hover:scale-150 transition duration-700  w-20">
             <img src={icons2} alt="js,ts" />
           </li>
-          <li className="hover:scale-150 transition duration-700  w-20">
-            <img src={icons3} alt="react,next" />
-          </li>
-          <li className="hover:scale-150 transition duration-700  w-20">
-            <img src={icons4} alt="tailwind,saas" />
-          </li>
+          </div>
+          <div className="flex -space-x-8">
+          <div className="flex -space-x-4">
+            <li className="hover:scale-150 transition duration-700  w-20">
+              <img src={icons3} alt="react,next" />
+            </li>
+            <li className="hover:scale-150 transition duration-700  w-20">
+              <img src={icons4} alt="tailwind,saas" />
+            </li>
+          </div>
+          <div className="flex -space-x-9">
+            <li className="hover:scale-150 transition duration-700  w-20">
+              <img src={icons5} alt="mongodb" />
+            </li>
+            <li className="hover:scale-150 transition duration-700  w-20">
+              <img src={icons6} alt="expressjs" />
+            </li>
+          </div>
+          </div>
         </ul>
       </div>
     </div>

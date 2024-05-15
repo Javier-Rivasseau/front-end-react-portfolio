@@ -6,7 +6,7 @@ const ContactMe = () => {
   return (
     <div  id="contact" className="max-w-5xl mx-auto md:px-10 py-20 md:py-32">
       <div className="mb-6 md:mb-10 text-center md:text-left ">
-        <p className="text-blue-600 font-bold font-robot text-xl py-2">
+        <p className="text-xl md:text-xl font-bold pb-2 md:pb-5 font-robot text-blue-700">
           CONTACT
         </p>
         <p className="text-bold text-3xl animate-pulse">Don't be shy! Hit me up! </p>

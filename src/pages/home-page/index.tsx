@@ -9,9 +9,9 @@ const HomePage = () => {
   return (
     <div id="home" className="mx-auto ">
       <Hero
-        title={"Front-End React Developer"}
+        title={"Full-Stack React Developer"}
         presentation={
-          "Hi, I'm Javier Rivasseau, a passionate front-end React developer based in Buenos Aires, Argentina. 📍"
+          "Hi, I'm Javier Rivasseau, a passionate full-stack React developer based in Buenos Aires, Argentina. 📍"
         }
       />
       <ProjectList />
