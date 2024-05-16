@@ -46,7 +46,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           {/* Contenedor del texto */}
           <div className="flex flex-col justify-evenly px-3 md:px-4 flex-grow">
             <h2 className="font-bold text-2xl mb-2 text-indigo-700">{title}</h2>
-            <p className="text-black text-md font-semibold  text-left">
+            <p className="text-black text-md font-semibold text-left -mr-1">
               {description}
             </p>
           </div>

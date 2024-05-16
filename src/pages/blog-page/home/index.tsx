@@ -68,7 +68,7 @@ const HomeBlogPage = () => {
     return (
       <div className="font-medium text-4xl text-center text-black space-y-5 ">
        <p> Data Loading! Please Wait... </p>
-       <p className="text-sm">* If it takes too long, it may be due to the
+       <p className="text-md text-red-500 text-justify">* If it takes too long, it may be due to the
         limitations of the free backend server. Please wait a moment for the
         data to load *</p>
       </div>
