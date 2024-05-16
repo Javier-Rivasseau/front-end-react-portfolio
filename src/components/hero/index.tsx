@@ -17,7 +17,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ title, presentation }) => {
   return (
-    <div className="bg-gray-100 border border-gray-200 mx-auto md:pl-16">
+    <div className="bg-gray-100 border border-gray-200 mx-auto w-full md:pl-16">
       {/* Presentación */}
       <div className="max-w-6xl mx-auto mb-1 flex flex-col md:flex-row items-center px-11">
         <div className="md:w-1/2 mb-8 md:mb-0 md:order-first order-last">
