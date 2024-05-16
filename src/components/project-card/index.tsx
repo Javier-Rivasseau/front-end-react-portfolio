@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 
   return (
     <div
-      className="flex flex-col p-4  md:max-w-xl rounded-3xl overflow-hidden shadow-xl mx-auto border border-gray-200 bg-white"
+      className="flex flex-col p-4 mb-6  md:max-w-xl rounded-3xl overflow-hidden shadow-xl mx-auto border border-gray-200 bg-white"
       style={{
         backgroundImage: "linear-gradient(to bottom right, #f7fafc, #edf2f7)",
       }}
