@@ -31,7 +31,7 @@ const Hero: React.FC<HeroProps> = ({ title, presentation }) => {
               />
             </h1>
           </div>
-          <p className="text-lg font-semibold">{presentation}</p>
+          <p className="text-2xl font-semibold ">{presentation}</p>
           <div className="flex justify-left mt-6">
             <a
               href={"https://github.com/Javier-Rivasseau"}

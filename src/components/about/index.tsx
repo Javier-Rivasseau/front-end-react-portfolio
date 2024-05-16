@@ -18,14 +18,14 @@ const AboutMe = () => {
           <h2 className="text-3xl md:text-2xl font-bold font-sans">
             FullStack developer
           </h2>
-          <h2 className="text-3xl md:text-2xl font-bold font-sans pb-2 md:pb-3">
+          <h2 className="text-3xl md:text-2xl font-bold font-sans mb-4 md:mb-3">
             based in Buenos Aires, Argentina 📍
           </h2>
-          <p className="mb-4 md:mb-4 font-medium">
+          <p className="mb-4 md:mb-4 font-medium text-lg text-left">
             Hey, my name is Javier, and I'm a Fullstack developer. My passion is
             to create and develop a clean UI/UX for my users.
           </p>
-          <p className="mb-4 md:mb-4 font-medium ">
+          <p className="mb-4 md:mb-4 font-medium text-lg text-left">
             My main stack currently is the MERN tech, in combination with
             Tailwind CSS and TypeScript.
           </p>
