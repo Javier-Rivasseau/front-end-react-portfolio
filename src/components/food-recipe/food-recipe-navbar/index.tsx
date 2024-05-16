@@ -14,11 +14,11 @@ const FoodRecipeNavbar = () => {
   console.log(searchParam);
 
   return (
-    <nav className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between items-center py-8 container mx-auto ">
+    <nav className="flex flex-col lg:flex-row gap-5  lg:gap-0 justify-between items-center py-8 container mx-auto ">
       <NavLink to={"/food-recipe"} className={"text-black hover:text-gray-600"}>
         <h2 className="text-2xl font-semibold"> FoodRecipe</h2>
       </NavLink>
-      <form action="" onSubmit={handleSubmit}>
+      <form action="" onSubmit={handleSubmit} className="flex ">
         <input
           type="text"
           name="Search"
