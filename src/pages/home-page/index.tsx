@@ -11,7 +11,7 @@ const HomePage = () => {
       <Hero
         title={"Full-Stack React Developer"}
         presentation={
-          "Hi, I'm Javier Rivasseau, a passionate full-stack React developer based in Buenos Aires, Argentina. 📍"
+          "Full-Stack Developer | Front-End Specialist | Buenos Aires, Argentina. 📍"
         }
       />
       <ProjectList />

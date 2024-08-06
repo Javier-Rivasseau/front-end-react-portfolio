@@ -16,6 +16,10 @@ interface HeroProps {
 }
 
 const Hero: React.FC<HeroProps> = ({ title, presentation }) => {
+  const formatPresentation = (text: string) => {
+    return text.replace(/\|/g, "\n");
+  };
+
   return (
     <div className="bg-gray-100 border border-gray-200 mx-auto w-full md:pl-16">
       {/* Presentación */}
@@ -31,7 +35,17 @@ const Hero: React.FC<HeroProps> = ({ title, presentation }) => {
               />
             </h1>
           </div>
-          <p className="text-2xl font-semibold ">{presentation}</p>
+          <div className="max-w-md">
+            <p className="mb-2 text-4xl font-bold text-primary">
+              Javier Rivasseau
+            </p>
+            <p
+              style={{ whiteSpace: "pre-line" }}
+              className="text-2xl font-medium text-secondary"
+            >
+              {formatPresentation(presentation)}
+            </p>
+          </div>
           <div className="flex justify-left mt-6">
             <a
               href={"https://github.com/Javier-Rivasseau"}
@@ -79,30 +93,30 @@ const Hero: React.FC<HeroProps> = ({ title, presentation }) => {
         {/* Renderizar las tecnologías utilizadas aquí */}
         <ul className="flex pl-6 space-x-2">
           <div className="flex space-x-5 ">
-          <li className="hover:scale-150 transition duration-700 w-20">
-            <img src={icons1} alt="html,react" />
-          </li>
-          <li className="hover:scale-150 transition duration-700  w-20">
-            <img src={icons2} alt="js,ts" />
-          </li>
+            <li className="hover:scale-150 transition duration-700 w-20">
+              <img src={icons1} alt="html,react" />
+            </li>
+            <li className="hover:scale-150 transition duration-700  w-20">
+              <img src={icons2} alt="js,ts" />
+            </li>
           </div>
           <div className="flex -space-x-8">
-          <div className="flex -space-x-4">
-            <li className="hover:scale-150 transition duration-700  w-20">
-              <img src={icons3} alt="react,next" />
-            </li>
-            <li className="hover:scale-150 transition duration-700  w-20">
-              <img src={icons4} alt="tailwind,saas" />
-            </li>
-          </div>
-          <div className="flex -space-x-9">
-            <li className="hover:scale-150 transition duration-700  w-20">
-              <img src={icons5} alt="mongodb" />
-            </li>
-            <li className="hover:scale-150 transition duration-700  w-20">
-              <img src={icons6} alt="expressjs" />
-            </li>
-          </div>
+            <div className="flex -space-x-4">
+              <li className="hover:scale-150 transition duration-700  w-20">
+                <img src={icons3} alt="react,next" />
+              </li>
+              <li className="hover:scale-150 transition duration-700  w-20">
+                <img src={icons4} alt="tailwind,saas" />
+              </li>
+            </div>
+            <div className="flex -space-x-9">
+              <li className="hover:scale-150 transition duration-700  w-20">
+                <img src={icons5} alt="mongodb" />
+              </li>
+              <li className="hover:scale-150 transition duration-700  w-20">
+                <img src={icons6} alt="expressjs" />
+              </li>
+            </div>
           </div>
         </ul>
       </div>

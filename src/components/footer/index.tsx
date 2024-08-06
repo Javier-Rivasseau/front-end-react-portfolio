@@ -7,10 +7,11 @@ const Footer = () => {
     <div className="mx-auto py-14 bg-gray-500 w-screen">
       <div className="flex justify-between items-center md:px-16 px-8 ">
         <div>
-          <p className="font-bold">Copyright © 2024. All rights are reserved.</p>
-          
+          <p className="font-bold">
+            Copyright © 2024. All rights are reserved.
+          </p>
         </div>
-        <div>
+        <div className="flex ">
           <a
             href={"https://github.com/Javier-Rivasseau"}
             target="_blank"
